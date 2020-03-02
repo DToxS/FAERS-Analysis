@@ -1,0 +1,27 @@
+drug,observed,predicted,abserror,type,Drugnames,relerror,SMILES ,PrimaryType ,SecondaryType,threelettercode
+ceritinib,0.599060366,0.820985683,0.22192532,testing,Ceritinib,-0.221925317,CC(C)Oc1cc(C2CCNCC2)c(C)cc1Nc3ncc(Cl)c(Nc4ccccc4S(=O)(=O)C(C)C)n3,1,NA,CER
+ibrutinib,1.229665815,0.736611816,0.493054,testing,Ibrutinib,0.493053999,Nc1ncnc2c1c(nn2[C@@H]3CCCN(C3)C(=O)C=C)c4ccc(Oc5ccccc5)cc4,4,NA,IBR
+lenvatinib,0.862831031,0.611215593,0.25161544,testing,Lenvatinib,0.251615438,COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(=O)N,1.5,NA,LEN
+nintedanib,0.907898766,0.666381744,0.24151702,testing,Nintedanib,0.241517022,COC(=O)c1ccc2\C(=C(\Nc3ccc(cc3)N(C)C(=O)CN4CCN(C)CC4)/c5ccccc5)\C(=O)Nc2c1,2,NA,NIN
+regorafenib,0.449242835,0.464854137,0.0156113,testing,Regorafenib,-0.015611302,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(c3)C(F)(F)F)c(F)c2)ccn1,2,NA,REG
+sunitinib,1.063753117,1.050816608,0.01293651,testing,Sunitinib,0.012936509,CCN(CC)CCNC(=O)c1c(C)[nH]c(\C=C\2/C(=O)Nc3ccc(F)cc23)c1C,1.5,2,SUN
+afatinib,0.418816052,0.467551514,0.04873546,training,Afatinib,-0.048735462,CN(C)C\C=C\C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]4CCOC4,6,NA,AFA
+axitinib,0.777399124,0.700980791,0.07641833,training,Axitinib,0.076418333,CNC(=O)c1ccccc1Sc2ccc3c(\C=C\c4ccccn4)n[nH]c3c2,2,NA,AXI
+bosutinib,1.560263003,1.300627621,0.25963538,training,Bosutinib,0.259635382,COc1cc(Nc2c(cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)C#N)c(Cl)cc1Cl,1,2,BOS
+cabozantinib,0.32056334,0.598579678,0.27801634,training,Cabozantinib,-0.278016338,COc1cc2nccc(Oc3ccc(NC(=O)C4(CC4)C(=O)Nc5ccc(F)cc5)cc3)c2cc1OC,1,NA,CAB
+crizotinib,0.787119248,0.768787776,0.01833147,training,Crizotinib,0.018331472,C[C@@H](Oc1cc(cnc1N)c2cnn(c2)C3CCNCC3)c4c(Cl)ccc(F)c4Cl,1,1.5,CRI
+dabrafenib,0.689176331,0.622796793,0.06637954,training,Dabrafenib,0.066379538,CC(C)(C)c1nc(c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(s1)c4ccnc(N)n4,2,NA,DAB
+dasatinib,1.491003379,1.426686333,0.06431705,training,Dasatinib,0.064317046,Cc1nc(Nc2ncc(s2)C(=O)Nc3c(C)cccc3Cl)cc(n1)N4CCN(CCO)CC4,1,1.5,DAS
+erlotinib,0.700457535,0.926025057,0.22556752,training,Erlotinib,-0.225567522,COCCOc1cc2ncnc(Nc3cccc(c3)C#C)c2cc1OCCOC,1,1.5,ERL
+gefitinib,0.809689801,0.786644672,0.02304513,training,Gefitinib,0.023045129,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN4CCOCC4,1,NA,GEF
+imatinib,1.299219165,1.366926312,0.06770715,training,Imatinib,-0.067707147,CN1CCN(Cc2ccc(cc2)C(=O)Nc3ccc(C)c(Nc4nccc(n4)c5cccnc5)c3)CC1,2,NA,IMA
+lapatinib,0.91819903,0.964425807,0.04622678,training,Lapatinib,-0.046226777,CS(=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2,1,1.5,LAP
+nilotinib,1.460228578,1.487699895,0.02747132,training,Nilotinib,-0.027471317,Cc1cn(cn1)c2cc(NC(=O)c3ccc(C)c(Nc4nccc(n4)c5cccnc5)c3)cc(c2)C(F)(F)F,2,NA,NIL
+pazopanib,0.848580505,0.618232009,0.2303485,training,Pazopanib,0.230348496,CN(c1ccc2c(C)n(C)nc2c1)c3ccnc(Nc4ccc(C)c(c4)S(=O)(=O)N)n3,1,NA,PAZ
+ponatinib,1.864692186,1.656061977,0.20863021,training,Ponatinib,0.208630209,CN1CCN(Cc2ccc(NC(=O)c3ccc(C)c(c3)C#Cc4cnc5cccnn45)cc2C(F)(F)F)CC1,1,NA,PON
+ruxolitinib,0.983559203,1.036432919,0.05287372,training,Ruxolitinib,-0.052873716,N#CC[C@H](C1CCCC1)n2cc(cn2)c3ncnc4[nH]ccc34,1,NA,RUX
+sorafenib,0.808588261,0.82505594,0.01646768,training,Sorafenib,-0.016467679,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(c3)C(F)(F)F)cc2)ccn1,2,NA,SOR
+tofacitinib,0.224963432,0.379914007,0.15495058,training,Tofacitinib,-0.154950575,C[C@@H]1CCN(C[C@@H]1N(C)c2ncnc3[nH]ccc23)C(=O)CC#N,1,NA,TOF
+trametinib,0.830886144,1.051069956,0.22018381,training,Trametinib,-0.220183812,CN1C(=O)C(=C2N(C(=O)N(C3CC3)C(=O)C2=C1Nc4ccc(I)cc4F)c5cccc(NC(=O)C)c5)C,3,NA,TRA
+vandetanib,0.864162298,0.883378687,0.01921639,training,Vandetanib,-0.019216389,COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC4CCN(C)CC4,1,NA,VAN
+vemurafenib,0.573981169,0.458416389,0.11556478,training,Vemurafenib,0.11556478,CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(cc23)c4ccc(Cl)cc4)c1F,1.5,NA,VEM
