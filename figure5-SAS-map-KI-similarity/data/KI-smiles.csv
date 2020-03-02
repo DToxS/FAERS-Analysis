@@ -1,0 +1,27 @@
+SMILES ,Drugnames,Primarytype ,SecondaryType
+CC(C)Oc1cc(C2CCNCC2)c(C)cc1Nc3ncc(Cl)c(Nc4ccccc4S(=O)(=O)C(C)C)n3,Ceritinib,1,NA
+Nc1ncnc2c1c(nn2[C@@H]3CCCN(C3)C(=O)C=C)c4ccc(Oc5ccccc5)cc4,Ibrutinib,4,NA
+COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(=O)N,Lenvatinib,1.5,NA
+COC(=O)c1ccc2\C(=C(\Nc3ccc(cc3)N(C)C(=O)CN4CCN(C)CC4)/c5ccccc5)\C(=O)Nc2c1,Nintedanib,2,NA
+CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(c3)C(F)(F)F)c(F)c2)ccn1,Regorafenib,2,NA
+CCN(CC)CCNC(=O)c1c(C)[nH]c(\C=C\2/C(=O)Nc3ccc(F)cc23)c1C,Sunitinib,1.5,2
+CN(C)C\C=C\C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]4CCOC4,Afatinib,6,NA
+CNC(=O)c1ccccc1Sc2ccc3c(\C=C\c4ccccn4)n[nH]c3c2,Axitinib,2,NA
+COc1cc(Nc2c(cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)C#N)c(Cl)cc1Cl,Bosutinib,1,2
+COc1cc2nccc(Oc3ccc(NC(=O)C4(CC4)C(=O)Nc5ccc(F)cc5)cc3)c2cc1OC,Cabozantinib,1,NA
+C[C@@H](Oc1cc(cnc1N)c2cnn(c2)C3CCNCC3)c4c(Cl)ccc(F)c4Cl,Crizotinib,1,1.5
+CC(C)(C)c1nc(c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(s1)c4ccnc(N)n4,Dabrafenib,2,NA
+Cc1nc(Nc2ncc(s2)C(=O)Nc3c(C)cccc3Cl)cc(n1)N4CCN(CCO)CC4,Dasatinib,1,1.5
+COCCOc1cc2ncnc(Nc3cccc(c3)C#C)c2cc1OCCOC,Erlotinib,1,1.5
+COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN4CCOCC4,Gefitinib,1,NA
+CN1CCN(Cc2ccc(cc2)C(=O)Nc3ccc(C)c(Nc4nccc(n4)c5cccnc5)c3)CC1,Imatinib,2,NA
+CS(=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2,Lapatinib,1,1.5
+Cc1cn(cn1)c2cc(NC(=O)c3ccc(C)c(Nc4nccc(n4)c5cccnc5)c3)cc(c2)C(F)(F)F,Nilotinib,2,NA
+CN(c1ccc2c(C)n(C)nc2c1)c3ccnc(Nc4ccc(C)c(c4)S(=O)(=O)N)n3,Pazopanib,1,NA
+CN1CCN(Cc2ccc(NC(=O)c3ccc(C)c(c3)C#Cc4cnc5cccnn45)cc2C(F)(F)F)CC1,Ponatinib,1,NA
+N#CC[C@H](C1CCCC1)n2cc(cn2)c3ncnc4[nH]ccc34,Ruxolitinib,1,NA
+CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(c3)C(F)(F)F)cc2)ccn1,Sorafenib,2,NA
+C[C@@H]1CCN(C[C@@H]1N(C)c2ncnc3[nH]ccc23)C(=O)CC#N,Tofacitinib,1,NA
+CN1C(=O)C(=C2N(C(=O)N(C3CC3)C(=O)C2=C1Nc4ccc(I)cc4F)c5cccc(NC(=O)C)c5)C,Trametinib,3,NA
+COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC4CCN(C)CC4,Vandetanib,1,NA
+CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(cc23)c4ccc(Cl)cc4)c1F,Vemurafenib,1.5,NA
