@@ -59,7 +59,12 @@ select.m$rescaled = rescale(select.m$observed, c(-1,1))
 select.m$rescaledpred = rescale(select.m$predicted, c(-1,1))
 select.m$drug =NULL
 ### correlation 
-ggplotRegression(glm(selectivity ~ 0 + observed , data=select.m))
+fit = glm(selectivity ~ 0 + observed , data=select.m)
+rsq = with(summary(fit), 1 - deviance/null.deviance)
+pvalue = summary(fit)$coefficients[,4] 
+ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) + 
+    geom_point() +
+    stat_smooth(method = "lm", col = "red") 
 ### heatmap 
 kd.kinase.df = kd.kinase %>%  as.data.frame()
 row.names(kd.kinase.df) = kd.kinase.df$`Gene name`
